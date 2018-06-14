@@ -1,7 +1,7 @@
 CC=gcc
-CFLAGS=-I.
-DEPS=
-OBJ= main.o
+CFLAGS=-I. -Wall
+DEPS=stack.h
+OBJ= main.o stack.o
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)

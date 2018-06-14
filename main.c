@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#include "stack.h"
+
 int main(void)
 {
     printf("Hello, world!\n");
